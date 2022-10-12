@@ -1,0 +1,14 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": { "text": "Average Rainfall in each city" },
+    "data": {
+    "url":
+    "https://raw.githubusercontent.com/JiazhouLiu/FIT3179/main/VegaLite/city_daily_cost.csv"
+    },
+    "mark": "line",
+    "encoding": {
+    "x": { "field": "daily_cost", "type": "quantitative" },
+    "y": { "field": "city", "type": "nominal" }
+    }
+    }
+    
